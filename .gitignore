@@ -1,0 +1,30 @@
+# --- Python & Virtual Environments ---
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+.env
+
+# --- AI & Data Science ---
+.ipynb_checkpoints/
+*.log
+data/raw/             # Usually better to keep raw data off GitHub
+models/*.pkl          # Large model files should be ignored (use Git LFS if needed)
+models/*.h5
+
+# --- IDEs & OS Specific ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Node.js (if you have a frontend) ---
+node_modules/
+dist/
+npm-debug.log*
+
+lib
+Lib
+pyvenv.cfg
