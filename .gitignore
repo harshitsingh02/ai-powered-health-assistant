@@ -10,8 +10,8 @@ env/
 # --- AI & Data Science ---
 .ipynb_checkpoints/
 *.log
-data/raw/             # Usually better to keep raw data off GitHub
-models/*.pkl          # Large model files should be ignored (use Git LFS if needed)
+data/raw/             
+models/*.pkl          
 models/*.h5
 
 # --- IDEs & OS Specific ---
@@ -19,11 +19,6 @@ models/*.h5
 .idea/
 .DS_Store
 Thumbs.db
-
-# --- Node.js (if you have a frontend) ---
-node_modules/
-dist/
-npm-debug.log*
 
 lib
 Lib
